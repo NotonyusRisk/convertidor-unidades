@@ -1,0 +1,18 @@
+:root{
+    --var-1: #FFFFFFFF;
+    --var-2: #272727;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globales */
+  body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: var(--var-2);
+    background-color: var(--var-1);
+  }
