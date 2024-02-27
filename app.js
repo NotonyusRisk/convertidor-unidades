@@ -32,35 +32,43 @@ switch(election){
         break;
 }
 
+btnCerrar.onclick = () => {
+    containerModal.style.display = none;
+}
+
 //funciones
 function celcius_fahrenheit(C) {
     let F = (C * 9/5) + 32;
     resultado.innerText = F;
+    containerModal.style.display = block;
 }
 
 function fahrenheit_celcius(F){
     let C = (F -32) * 5 / 9;
     resultado.innerText = C;
+    containerModal.style.display = block;
 }
 
 function celcius_kelvin(C) {
     let K = C + 273;
     resultado.innerText = K;
+    containerModal.style.display = block;
 }
 
 function kelvin_celcius(K) {
     let C = K - 273;
     resultado.innerText = C;
+    containerModal.style.display = block;
 }
 
 function fahrenheit_kelvin(F) {
     let K = (F + 459) * 5/9;
     resultado.innerText = K;
+    containerModal.style.display = block;
 }
 
 function kelvin_fahrenheit(K) {
     let F = (K * 9/5) -459;
     resultado.innerText = F;
+    containerModal.style.display = block;
 }
-
-//pruebas
