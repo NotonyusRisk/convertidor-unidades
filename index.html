@@ -8,6 +8,40 @@
     <title>Convertidor de unidades</title>
 </head>
 <body>
+    <main>
+        <div class="entrada">
+            <h2>Convertidos de Unidades</h2>
+            <form action="">
+                <div class="selection">
+                    <h3>Elige que conversion deseas hacer</h3>
+                    <select name="Conversiones" id="value-convertion">
+                        <option value="0">Seleccione uno</option>
+                        <option value="1">Celcius a Fahrenheit</option>
+                        <option value="2">Fahrenheit a Celcius</option>
+                        <option value="3">Celcius a Kelvin</option>
+                        <option value="4">Kelvin a Celcius</option>
+                    </select>
+                </div>
+            </form>
+            <div class="input-value">
+                <h3>Ingrese el valor a convertir</h3>
+                <input type="text" id="valor">
+                <button id="convertir">Convertir</button>
+            </div>
+        </div>
+        <div class="container-modal" id="container-modal">
+            <div class="subcontainer-modal">
+                <div class="modal">
+                    <button id="cerrar" class="cerrar">X</button>
+                    <div class="modal-content">
+                        <h2>Resultado</h2>
+                        <h3 id="resultado" class="resultado"></h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    
     <script src="./app.js"></script>
 </body>
 </html>
