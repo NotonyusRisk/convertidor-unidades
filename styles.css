@@ -90,6 +90,7 @@ button{
     height: 30px;
     border-radius: 20px;
     border-color: var(--var-4);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container-modal{
