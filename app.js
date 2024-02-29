@@ -8,7 +8,7 @@ let btnConvertir = document.getElementById("convertir");
 
 //variables
 let election = parseInt(valueConvertion.selectedIndex);
-let numero = parseInt(valor.value);
+let numero = valor.value;
 
 //eventos
 btnConvertir.addEventListener("click", () => {
@@ -35,37 +35,37 @@ btnCerrar.onclick = () => {
 
 //funciones
 function celcius_fahrenheit(C) {
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let F = (C * 9/5) + 32;
     resultado.innerHTML = F;
 }
 
 function fahrenheit_celcius(F){
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let C = (F -32) * 5 / 9;
     resultado.innerText = C;
 }
 
 function celcius_kelvin(C) {
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let K = C + 273;
     resultado.innerText = K;
 }
 
 function kelvin_celcius(K) {
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let C = K - 273;
     resultado.innerHTML = C;
 }
 
 function fahrenheit_kelvin(F) {
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let K = (F + 459) * 5/9;
     resultado.innerHTML = K;
 }
 
 function kelvin_fahrenheit(K) {
-    resultado.innerHTML = "";
+    // resultado.innerHTML = "";
     let F = (K * 9/5) -459;
     resultado.innerHTML = F;
 }
