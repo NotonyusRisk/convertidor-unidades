@@ -36,48 +36,36 @@ btnCerrar.onclick = () => {
 //funciones
 function celcius_fahrenheit(C) {
     resultado.innerHTML = "";
-    let F = 0;
-    F = (C * 9/5) + 32;
-    console.log(F);
+    let F = (C * 9/5) + 32;
     resultado.innerHTML = F;
 }
 
 function fahrenheit_celcius(F){
     resultado.innerHTML = "";
-    let C = 0;
-    C = (F -32) * 5 / 9;
-    console.log(C);
+    let C = (F -32) * 5 / 9;
     resultado.innerText = C;
 }
 
 function celcius_kelvin(C) {
     resultado.innerHTML = "";
-    let K = 0;
-    K = C + 273;
-    console.log(k);
+    let K = C + 273;
     resultado.innerText = K;
 }
 
 function kelvin_celcius(K) {
     resultado.innerHTML = "";
-    let C = 0;
-    C = K - 273;
-    console.log(C);
+    let C = K - 273;
     resultado.innerHTML = C;
 }
 
 function fahrenheit_kelvin(F) {
     resultado.innerHTML = "";
-    let K = 0;
-    K = (F + 459) * 5/9;
-    console.log(k);
+    let K = (F + 459) * 5/9;
     resultado.innerHTML = K;
 }
 
 function kelvin_fahrenheit(K) {
     resultado.innerHTML = "";
-    let F = 0;
-    F = (K * 9/5) -459;
-    console.log(F);
+    let F = (K * 9/5) -459;
     resultado.innerHTML = F;
 }
